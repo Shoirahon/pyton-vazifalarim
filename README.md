@@ -1,1 +1,2 @@
-# pyton-vazifalarim
+# pyton-vazifalarim 
+mening uyga vazifalarim
