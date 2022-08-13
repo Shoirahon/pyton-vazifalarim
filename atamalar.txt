@@ -1,0 +1,5 @@
+w-faylga yozish.Faylda malumot bo'lsa o'chirib yuboradi
+a-faylga ma'lumot qo'shish uchun ochish
+a+=faylga ma'lumot qo'shish va o'qish
+r=faylni o'qish
+w+=faylni o'qish va yozish uchun.Agar ma'lumot bo'lsa o'chirib boshqa fayl yaratadi

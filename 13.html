@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jun 18 14:32:57 2022
+
+@author: User
+"""
+
+
+# data = {"Model" : "Malibu",
+#         "Rang" : "Qora", 
+#         "Yil":2020, "Narh":40000}
+# data_json = json.dumps(data)
+# print(data_json)
+
+talaba = {"ism":"Hasan","familiya":"Husanov","tyil":2000}
+talaba_json = """{"ism":"Hasan","familiya":"Husanov","tyil":2000}"""
+talaba_json = json.loads(talaba_json)
+print (talaba_json)
+
+
+filename = 'data.json'
+with open(filename) as d:
+data = json.loads(d)
+print(type(data))
+
+
+filename = 'talaba.json'
+with open(filename) as f:
+talaba = json.load(f)
+print(type(talaba))
+
